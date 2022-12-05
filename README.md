@@ -70,4 +70,80 @@
 
 Трек успешно удалён, 200
 
+9. GET(book) - http://localhost:3005/api/books
+
+![GETbooks](https://user-images.githubusercontent.com/98220684/205609626-ebaff5aa-bd06-4a71-b1d8-4c2ac9396061.png)
+
+Данные о книге, 200
+
+10. POST(book) - http://localhost:3005/api/books
+
+{
+    "title": "title",
+    "author": "author",
+    "genre": "genre",
+    "numofpages": "numofpages",
+    "year": "year"
+}
+
+![POSTbook](https://user-images.githubusercontent.com/98220684/205610048-6dc7d1ac-98b5-4204-b1e9-7258e65e01df.png)
+
+Книга добавлена, 201
+
+11. PUT(book) - http://localhost:3005/api/books/0
+
+{
+    "title":"title1"
+}
+
+![PUTbook](https://user-images.githubusercontent.com/98220684/205610327-268295a1-90b2-4729-9c4c-6f4ff3543d05.png)
+
+Книга отредактирована, 200
+
+12. DELETE(book) - http://localhost:3005/api/books/0
+
+![DELETEbook](https://user-images.githubusercontent.com/98220684/205610426-318af7e4-f3f9-460d-803e-6f34803fc9fc.png)
+
+Книга успешно удалена, 200
+
+13. GET(car) - http://localhost:3005/api/cars
+
+![GETcars](https://user-images.githubusercontent.com/98220684/205610860-212a07fc-bab2-4101-9972-0171124b7d88.png)
+
+
+Данные о машине, 200
+
+14. POST(car) - http://localhost:3005/api/cars
+
+{
+    "name": "name",
+    "brand": "brand",
+    "color": "color",
+    "speed": "speed",
+    "year": "year"
+}
+
+![POSTcar](https://user-images.githubusercontent.com/98220684/205610883-de85d614-10cb-48a5-9ec8-4a18f78c86a3.png)
+
+
+Машина добавлена, 201
+
+15. PUT(car) - http://localhost:3005/api/cars/0
+
+{
+    "brand": "brand1"
+}
+
+![PUTcar](https://user-images.githubusercontent.com/98220684/205610903-4b15ddf5-c093-4b6f-b0e7-2b86bd9f8b89.png)
+
+Машина отредактирована, 200
+
+16. DELETE(car) - http://localhost:3005/api/cars/0
+
+![DELETEcar](https://user-images.githubusercontent.com/98220684/205610923-5f2291c1-2cd6-4163-bde3-e0981c086397.png)
+
+Машина успешно удалена, 200
+
+
+
 
